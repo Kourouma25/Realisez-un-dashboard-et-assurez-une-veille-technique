@@ -1,28 +1,15 @@
 # Ignorer les fichiers temporaires
 *.tmp
 *.log
-
-# Ignorer les fichiers de données (ajusté pour ne pas ignorer tous les fichiers CSV si nécessaire)
 *.csv
-!important_data.csv  # Exception si vous voulez inclure un fichier CSV spécifique
 
-# Ignorer les images (ajusté pour ignorer uniquement le dossier "images" à la racine)
+# Ignorer les images
 images/
 
 # Ignorer les environnements virtuels
 env/
 env3/
-venv/
 
 # Ignorer les fichiers compilés Python
 *.pyc
-*.pyo
 __pycache__/
-
-# Ignorer les fichiers système ou IDE
-.DS_Store
-Thumbs.db
-*.swp
-*.sublime-workspace
-.idea/
-.vscode/

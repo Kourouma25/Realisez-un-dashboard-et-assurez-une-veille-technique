@@ -1,3 +1,4 @@
 ultralytics
 torchvision
 scikit-learn
+pandas
